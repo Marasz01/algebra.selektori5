@@ -17,7 +17,7 @@ section {
     padding: 30px;
 }
 
-.full-width{
+.full-width {
     position: relative;
     margin: 0 -30px;
     padding: .25rem 30px;
@@ -25,7 +25,9 @@ section {
     color: white;
     font-size: 1.125rem;
 }
-.full-width::before , .full-width::after{
+
+.full-width::before,
+.full-width::after {
     content: "";
     position: absolute;
     top: 0;
@@ -34,7 +36,8 @@ section {
     right: 100%;
     background: red;
 }
-.full-width::after{
+
+.full-width::after {
     width: 960px;
     left: 100%;
     background: green;

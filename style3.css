@@ -1,9 +1,10 @@
-.Header{
+.Header {
     float: left;
     width: 100%;
     padding: 0.5em 0;
 }
-.Header h1{
+
+.Header h1 {
     font-family: Arial, sans-serif;
     color: #6a4aed;
     font-size: 26px;
@@ -12,10 +13,11 @@
     line-height: normal;
 }
 
-header{
+header {
     display: block;
 }
-div.header-line{
+
+div.header-line {
     box-sizing: border-box;
     margin: 0 auto;
     width: 25rem;
@@ -23,7 +25,8 @@ div.header-line{
     padding: 30px;
     text-align: center;
 }
-.full-width-header{
+
+.full-width-header {
     position: relative;
     margin: 0 -30px;
     padding: .25rem 30px;
@@ -31,7 +34,9 @@ div.header-line{
     color: white;
     font-size: 1.125rem;
 }
-.full-width-header::before , .full-width-header::after{
+
+.full-width-header::before,
+.full-width-header::after {
     content: "";
     position: absolute;
     top: 0;
@@ -40,7 +45,8 @@ div.header-line{
     right: 100%;
     background: red;
 }
-.full-width-header::after{
+
+.full-width-header::after {
     width: 960px;
     left: 100%;
     background: blue;
