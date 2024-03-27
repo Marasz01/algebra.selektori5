@@ -52,10 +52,11 @@ div.header-line {
     background: blue;
 }
 
-.content{
+.content {
     line-height: 28px;
 }
-.tabs-container{
+
+.tabs-container {
     position: relative;
     background: #2625cc;
     width: 120px;
@@ -63,7 +64,8 @@ div.header-line {
     float: left;
     z-index: 20;
 }
-.tabs-container label{
+
+.tabs-container label {
     position: relative;
     padding: 10px;
     border-bottom: 1px solid greenyellow;
@@ -73,13 +75,16 @@ div.header-line {
     cursor: pointer;
     user-select: none;
 }
-.tabs-container label:hover{
+
+.tabs-container label:hover {
     background: darkslateblue;
 }
-input[name="tab"]{
+
+input[name="tab"] {
     display: none;
 }
-.tab-container{
+
+.tab-container {
     position: relative;
     background: #eee;
     width: calc(100%-120%);
@@ -90,23 +95,28 @@ input[name="tab"]{
     z-index: 19;
     display: none;
 }
-.tab-container::after{
+
+.tab-container::after {
     content: "";
     clear: both;
 }
-.tabs-container label:hover{
+
+.tabs-container label:hover {
     background: darkslateblue;
 }
-input[name="tab"]:checked + .tab-container{
+
+input[name="tab"]:checked+.tab-container {
     display: block;
     animation: slide 0.5s forwards;
 }
-@keyframes slide{
-    from{
+
+@keyframes slide {
+    from {
         left: -100%;
         opacity: 0;
     }
-    to{
+
+    to {
         left: 0;
         opacity: 1;
     }
